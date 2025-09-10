@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    min-height: 250px;
+    background-color: #f9fafb; /* halka sa soft background */
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #5f9341;
+    border-radius: 6px; /* rounded look */
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    border-color: #4a7a33; /* thoda dark border focus pe */
+    box-shadow: 0 0 5px rgba(95, 147, 65, 0.4);
+}
+
+button {
+    height: 36px;
+    background: #5f9341;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background: #4a7a33; /* hover pe thoda dark green */
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+#delete-btn {
+    color: #5f9341;
+    background-color: white;
+    border: 1px solid #5f9341;
+}
+
+#delete-btn:hover {
+    background-color: #f3f7f0;
+}
+
+ul {
+    margin-top: 12px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 6px;
+}
+
+li a {
+    color: #5f9341;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #4a7a33;
+}
