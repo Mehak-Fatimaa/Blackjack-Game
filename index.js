@@ -5,6 +5,7 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 const deleteBtn = document.getElementById("delete-btn")
+const tabBtn = document.getElementById("tab-btn")
 
 // local storage hr browser k apna hta h aur wo refresh krny pr bh nh jata h jb tk usy khud se delete na krden    // key value should be string
 // localStorage.setItem(key, value)
@@ -26,6 +27,14 @@ if(leadsFromLocalStorage){
     render(myLeads)
 }
 
+tabBtn.addEventListener("click", function(){    
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+        myLeads.push(tabs[0].url)
+        localStorage.setItem("myLeads", JSON.stringify(myLeads) )
+        render(myLeads)
+    })
+})
+
 function render(leads) {
     let listItems = ""
     for (let i = 0; i < leads.length; i++) {
@@ -34,7 +43,6 @@ function render(leads) {
             <li>
                 <a href="${leads[i]}" target="_blank">
                     ${leads[i]} 
-                    (ok my)
                 </a>
             </li>`
         // method 1
