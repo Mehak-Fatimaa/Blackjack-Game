@@ -5,14 +5,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
     min-height: 250px;
-    background-color: #f9fafb; /* halka sa soft background */
+    background-color: #f9fafb;
 }
 
 input {
     box-sizing: border-box;
     width: 100%;
     border: 1px solid #5f9341;
-    border-radius: 6px; /* rounded look */
+    border-radius: 6px; 
     padding: 10px;
     margin-bottom: 8px;
     font-size: 14px;
@@ -21,7 +21,7 @@ input {
 }
 
 input:focus {
-    border-color: #4a7a33; /* thoda dark border focus pe */
+    border-color: #4a7a33; 
     box-shadow: 0 0 5px rgba(95, 147, 65, 0.4);
 }
 
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background: #4a7a33; /* hover pe thoda dark green */
+    background: #4a7a33; 
     transform: translateY(-1px);
     box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
