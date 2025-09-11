@@ -7,7 +7,7 @@ Perfect for quickly collecting notes, links, or anything you want to revisit lat
 ## Features🚀 
 
 - **Save Input as Link** – Any URL or text you type gets stored as a **clickable link**.
-- **Save Current Tab** – Capture and save the active tab's title & URL instantly (also clickable).
+- **Save Current Tab** – Save the active tab's URL instantly (also clickable).
 - **Delete All** – One-click option to clear all saved data.
 - **Persistent Storage** – Data stays saved even after closing the browser.
 - **Dual Theme Support** – Choose between **Light Mode** ☀️ and **Dark Mode** 🌙.
@@ -44,7 +44,7 @@ Perfect for quickly collecting notes, links, or anything you want to revisit lat
 1. Click on the **Save Mate** icon in the Chrome toolbar.
 2. Type any URL or note in the input field and click **Save Input**.
 3. The saved input will appear **as a clickable link** in the list below.
-4. Or click **Save Current Tab** to store the active tab's title & URL (also clickable).
+4. Or click **Save Current Tab** to store the active tab's URL (also clickable).
 5. Click **Delete All** when you want to clear everything.
 
 ## Project Structure📂 
