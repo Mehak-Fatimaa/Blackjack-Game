@@ -1,6 +1,6 @@
 # Save Mate🤝  
 
-Save Mate is a simple and powerful **Chrome Extension** that helps you save text inputs (as clickable links!) and current tab URLs in just one click — and clear them all when you're done.  
+Save Mate is a simple and powerful **Chrome Extension** that helps you save text inputs (as clickable links!) and current tab URLs in just one click and clear them all when you're done.  
 It comes with **two beautiful themes – Light and Dark –** so you can choose what suits your mood. 🌗  
 Perfect for quickly collecting notes, links, or anything you want to revisit later. 📝✨
 
@@ -18,24 +18,25 @@ Perfect for quickly collecting notes, links, or anything you want to revisit lat
 ## Preview📸 
 
 | Light Theme ☀️ | 
-|---------------|--------------|
-| ![Light Theme Demo](images/light_theme_demo.png) |
-| Dark Theme 🌙 |
-|---------------|--------------|
-| ![Dark Theme Demo](images/dark_theme_demo.png) |
+
+ ![Light Theme Demo](images/light_theme_demo.png)   
+  
+| Dark Theme 🌙 |  
+
+ ![Dark Theme Demo](images/dark_theme_demo.png) 
 
 ## 🛠 Installation (Developer Mode)
 
 1. **Clone this repository** or **Download ZIP**:
    git clone https://github.com/Mehak-Fatimaa/Save-Mate.git
-Open Chrome and go to:
-chrome://extensions/
 
-2. Enable Developer Mode (toggle in the top-right corner).
+   Open Chrome and go to: chrome://extensions/
 
-3. Click Load unpacked and select the project folder you just cloned or extracted.
+3. Enable Developer Mode (toggle in the top-right corner).
 
-4. Pin Save Mate from the extensions bar for quick access.
+4. Click Load unpacked and select the Save Mate project folder.
+
+5. Pin Save Mate from the extensions bar for quick access.
 
 
 ## Usage🧩 
@@ -48,18 +49,18 @@ chrome://extensions/
 
 ## Project Structure📂 
 
-Save-Mate/
-|
-├── images/
-|  ├── icons.png
-|  ├── light_theme_demo.png
-|  ├── dark_theme_demo.png
-├── manifest.json 
-├── index.html 
-├── index.js 
-├── light_theme.css 
-├── dark_theme.css 
-├── icon.png
+Save-Mate/  
+├  
+├── images/  
+├    ├── icons.png  
+├    ├── light_theme_demo.png  
+├    ├── dark_theme_demo.png  
+├── manifest.json   
+├── index.html   
+├── index.js   
+├── light_theme.css   
+├── dark_theme.css   
+├── icon.png  
 └── README.md
 
 ## 🖌 Theme
@@ -69,7 +70,7 @@ Save Mate comes with **two beautiful themes** so you can choose your vibe:
 - **🌙 Dark Theme:** Sleek Black + Teal combo for a modern, focused look.
 - **☀️ Light Theme:** Clean and minimal design with soft contrasts for daytime use.
 
-> _Pro Tip:_ Switch between Light and Dark mode anytime to match your mood!
+> _Pro Tip:_ Switch between Light and Dark mode to match your mood!
 
 ## 🤝 Contributing
 
